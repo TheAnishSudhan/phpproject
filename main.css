@@ -1,0 +1,24 @@
+@font-face {
+  font-family: titleFont1;
+  src: url(resources/fonts/BestalineSans-vm5VM.ttf);
+}
+
+@font-face {
+  font-family: subTitleFont1;
+  /* src: url(resources/fonts/HussarBoldWebEdition-xq5O.otf); */
+  src: url(resources/fonts/BestalineSans-vm5VM.ttf);
+}
+
+p.text{
+  margin-top: 300px;
+  margin-bottom: 100px;
+  font-size: 50px;
+  font-family:titleFont1;
+}
+
+p.sub_text{
+  margin: auto;
+  margin-top: 5%;
+  /* font-size: 30px; */
+  font-family:subTitleFont1;
+}
