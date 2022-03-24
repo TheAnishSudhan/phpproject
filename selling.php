@@ -29,7 +29,7 @@
     </tr>
     <tr>
       <td><label for="mileage">Mileage: </label></td>
-      <td><input type="text" name="mileage" id="mileage" placeholder="km/hr"></td>
+      <td><input type="text" name="mileage" id="mileage" placeholder="km/l"></td>
     </tr>
 
 

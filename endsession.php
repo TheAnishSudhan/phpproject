@@ -1,4 +1,5 @@
 <?php
-SESSION_DESTROY();
-
+session_start();
+session_unset();
+session_destroy();
  ?>
