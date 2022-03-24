@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Wolf Boy</title>
+  <title>Website</title>
   <link rel="icon"
     href="https://cdn3.vectorstock.com/i/1000x1000/87/02/auto-car-logo-template-icon-vector-21468702.jpg"
     type="image/png">
@@ -17,6 +17,11 @@
     <a href="page1.html" target="_blank" style="position:absolute;"><img src="https://cdn3.vectorstock.com/i/1000x1000/87/02/auto-car-logo-template-icon-vector-21468702.jpg"
         alt="welp" width=70px></a>
     <h1 id="heading">VroomVroom</h1>
+    <p>Welcome </p>
+    <?php
+    session_start();
+    echo "<p style='color:blue;'>
+      Welcome ".$_SESSION['loginuser_name'].".<br> </p>"?>
     <hr>
     <div id="navigation">
       <div class="nav"><a href="buy.html">
