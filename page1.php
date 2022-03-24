@@ -5,18 +5,19 @@
   <meta charset="utf-8">
   <title>Website</title>
   <link rel="icon"
-    href="https://cdn3.vectorstock.com/i/1000x1000/87/02/auto-car-logo-template-icon-vector-21468702.jpg"
+    href="https://us.123rf.com/450wm/wellgod/wellgod2006/wellgod200600102/149713537-sport-supercar-front-view-line-art.jpg?ver=6"
     type="image/png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  <link href=" https://us.123rf.com/450wm/wellgod/wellgod2006/wellgod200600102/149713537-sport-supercar-front-view-line-art.jpg?ver=6 " rel="stylesheet"
     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 
 <body>
   <header>
 
-    <a href="page1.html" target="_blank" style="position:absolute;"><img src="https://cdn3.vectorstock.com/i/1000x1000/87/02/auto-car-logo-template-icon-vector-21468702.jpg"
-        alt="welp" width=70px></a>
+    <a href="page1.html" target="_blank" style="position:absolute;"><img src=" https://us.123rf.com/450wm/wellgod/wellgod2006/wellgod200600102/149713537-sport-supercar-front-view-line-art.jpg?ver=6 "
+        alt="welp" width=100px style="margin-top:-5px;"></a>
     <h1 id="heading">VroomVroom</h1>
+    <hr>
     <p>Welcome </p>
     <?php
     session_start();
@@ -38,9 +39,10 @@
       </span>
     </div>
     <hr>
-
   </header>
-  <h3> Overview</h3>
+  <div class="ltr">
+    <img class="img1" src="https://www.freeiconspng.com/uploads/audi-q3-car-png-orange-side-view-10.png" alt="white car" width="200px">
+  </div>
 
   <br><br><br><br><br>
 
@@ -103,7 +105,6 @@
   #img1 {
     position: dynamic;
     max-width: 800px;
-
     width: 75%;
 
   }
@@ -129,6 +130,32 @@
   ::-webkit-scrollbar-thumb:hover {
     background: purple;
   }
+
+  .img1 {
+   max-width: 100%;
+   max-height: 100%;
+   position:absolute;
+   bottom: 0px;
+  }
+  .ltr {
+   height: 100px;
+   width: 600px;
+   position: absolute;
+   bottom:0px;
+  }
+  .ltr:hover{
+    animation-name: moveToRight;
+    animation-duration: 3s;
+    animation-iteration-count : infinite;
+  }
+  @keyframes moveToRight {
+          0% {
+            transform: translateX(0px);
+          }
+          100% {
+            transform: translateX(630px);
+          }
+        }
 </style>
 
 </html>
