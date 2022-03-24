@@ -12,7 +12,7 @@
       $password=$_POST['pwd'];
 
 
-      $sql="SELECT id FROM users WHERE NAME = '$email' and PASSWORD = '$password'";
+      $sql="SELECT id FROM users WHERE email = '$email' and PASSWORD = '$password'";
       $result = mysqli_query($conn,$sql);
       $count = mysqli_num_rows($result);
 
@@ -24,7 +24,7 @@
 
       if (mysqli_query($conn, $sql)) {
 		      echo "Account created successfully !";
-          header("location: page1.html");
+          header("location: page1.php");
 	       } else {
 		         echo "Error: " . $sql . "" . mysqli_error($conn);
            }

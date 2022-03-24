@@ -14,11 +14,10 @@
 <body>
   <header>
 
-    <a href="page1.html" target="_blank" style="position:absolute;"><img src=" https://us.123rf.com/450wm/wellgod/wellgod2006/wellgod200600102/149713537-sport-supercar-front-view-line-art.jpg?ver=6 "
-        alt="welp" width=100px style="margin-top:-5px;"></a>
+    <a href="index1.php" style="position:absolute;"><img src=" https://us.123rf.com/450wm/wellgod/wellgod2006/wellgod200600102/149713537-sport-supercar-front-view-line-art.jpg?ver=6 "
+        alt="welp" width=82px style="margin-top:-10px;"></a>
     <h1 id="heading">VroomVroom</h1>
     <hr>
-    <p>Welcome </p>
     <?php
     session_start();
     echo "<p style='color:blue;'>
