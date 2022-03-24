@@ -27,7 +27,7 @@
       <div class="nav"><a href="buy.html">
           <button type="button" class="btn btn-outline-light">Buy</button>
         </a></div>
-      <div class="nav"><a href="sell.html">
+      <div class="nav"><a href="selling.php">
           <button type="button" class="btn btn-outline-light">Sell</button>
         </a></div>
       <div class="nav"><a href="latest.html">

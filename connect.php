@@ -12,7 +12,7 @@
       $password=$_POST['pwd'];
 
 
-      $sql="SELECT id FROM users WHERE email = '$email' and PASSWORD = '$password'";
+      $sql="SELECT id FROM users WHERE email = '$email'";
       $result = mysqli_query($conn,$sql);
       $count = mysqli_num_rows($result);
 
