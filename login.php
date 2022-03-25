@@ -18,7 +18,7 @@ if($_SERVER["REQUEST_METHOD"]=="POST"){
 
       $row = mysqli_fetch_assoc($result);
       $currentuser_name = $row["name"];
-      $currentuser_id =  $row['id'];
+      $currentuser_id =  $row["id"];
 
       // If result matched $myusername and $mypassword, table row must be 1 row
 
